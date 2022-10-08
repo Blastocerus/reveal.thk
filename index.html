@@ -1,48 +1,66 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>DDD-Digitalisation</title>
+    <meta name="author" content="Prof. Dr. Richard Hirsch"/>
+    <meta name="description" content="Präsentation zur Vorlesung „Digitalisierung‬"/>
+    
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/thk.css">
+    
+    <!-- THK Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.th-koeln.de/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.th-koeln.de/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.th-koeln.de/favicon-16x16.png">
 
-		<title>reveal.js</title>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+      <section id="sec-title-slide">
+        <h1 class="title">Digitalisiation</h1>
+        <h2 class="author"><em>Drug Discovery and Development</em>
+            </br>Prof. Dr. Richard Hirsch</h2>
+      </section> 
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+      <section>
+        <section>
+          <h2>Digital computers</h2>
+        </section>
+      
+        <section>
+          <h3>Abstraction layers</h3>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2
-						<aside class="notes">
-						<p>Some notes</p>
-						</aside>
-						<p>Some slide text</p>
-						<aside class="notes">
-						<p>and some more notes</p>
-					</aside>
-				</section>
-			</div>
-		</div>
-
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+          <ul>
+            <li>numerical manipulation of binary numbers</li>
+            <li>logical operations</li>
+            <li>electronic circuits</li>
+          </ul>
+        </section>
+        </section>
+      </div>
+    </div>
+    
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+          hash: true,
+          
+          // Learn about plugins: https://revealjs.com/plugins/
+          plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+  </body>
 </html>
