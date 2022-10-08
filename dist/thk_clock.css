@@ -1,0 +1,66 @@
+/*********************************************
+ * THK colors
+ *********************************************/
+.red { background-color: #c81e0f; }
+.orange { background-color: #ea5a00; }
+.violet { background-color: #b43092; }
+
+
+#titleclock {
+    width: 45%;
+    height: 45%;
+    float: right;
+    margin-top: -5%;
+    margin-right: 8%;
+}
+
+#tick0,
+#tick1 {
+    fill: black;
+}
+
+#tick0 {
+    x: 96.66666666666667px;
+    y: 0px;
+    width: 6.666666666666667px;
+    height: 22.22222222222222px;
+}
+
+#tick1 {
+    x: 99.33333333333333px;
+    y: 0px;
+    width: 1.3333333333333335px;
+    height: 11.11111111111111px;
+}
+
+#handH {
+    x: 95.0px;
+    y: 90.0px;
+    width: 10.0px;
+    height: 66.0px;
+    fill: black;
+}
+
+#handM {
+    x: 96.66666666666667px;
+    y: 90.0px;
+    width: 6.666666666666667px;
+    height: 88.0px;
+    fill: black
+}
+
+#handS {
+    x: 99.0px;
+    y: 95.0px;
+    width: 2.0px;
+    height: 90.0px;
+    fill: #c81e0f;
+}
+
+div.countdown {
+    visibility: hidden;
+    position: absolute;
+    bottom: 33%;
+    left: 5%;
+    font-size: bigger;
+}
